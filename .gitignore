@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Config files with secrets (CRITICAL!)
+vyapar_config.py
+*_config.py
+config.json
+secrets.json
+Vyapar_Config.ipynb
+
+# API Keys
+*.env
+.env
+
+# PDF documents (may contain sensitive info)
+*.pdf
+
+# Data files (too large for GitHub)
+*.xlsx
+*.csv
+*.xls
+vaani_data/
+
+# Mac
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
